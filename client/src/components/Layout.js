@@ -16,14 +16,14 @@ function Layout({ children }) {
           </div>
         </div>
       </header>
-      <AnimatedBanner message="Welcome to DevOps Shack 🚀" />
+      <AnimatedBanner message="Welcome to DevSecOps Sohail 🚀" />
       <div className="app-body">
         <aside className="sidebar slide-in-left">
           <h3>Connect</h3>
           <ul className="social-links">
-            <li><a className="sidebar-btn" href="https://www.linkedin.com/in/adityajaiswal7/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-            <li><a className="sidebar-btn" href="https://www.youtube.com/@devopsshack" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-            <li><a className="sidebar-btn" href="https://www.instagram.com/devopsshack" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a className="sidebar-btn" href="https://www.linkedin.com/in/md-sohail-shaikh-985ab0206/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a className="sidebar-btn" href="https://www.linkedin.com/in/md-sohail-shaikh-985ab0206/" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a className="sidebar-btn" href="https://www.linkedin.com/in/md-sohail-shaikh-985ab0206/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
           </ul>
         </aside>
         <main className="main-content fade-in">
@@ -31,7 +31,7 @@ function Layout({ children }) {
         </main>
       </div>
       <footer className="app-footer">
-        <p>&copy; {new Date().getFullYear()} DevOps Shack. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} DevSecOps Sohail. All rights reserved.</p>
       </footer>
 
       <button className="help-btn" onClick={() => setShowInfo(true)}>?</button>
